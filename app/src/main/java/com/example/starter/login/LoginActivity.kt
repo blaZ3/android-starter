@@ -39,6 +39,10 @@ class LoginActivity : AppCompatActivity(), LoginView {
             presenter.login(dataBinding.username.text.toString(),
                     dataBinding.password.text.toString())
         }
+
+
+        setSupportActionBar(dataBinding.toolbarLogin)
+        supportActionBar?.title = "Login"
     }
 
     override fun showUserNameError() {

@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        LoginActivity.start(this)
+        finish()
+
         dataBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
 

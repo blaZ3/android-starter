@@ -10,6 +10,7 @@ import android.widget.Button
 import android.widget.Toast
 
 import com.example.starter.databinding.ActivityMainBinding
+import com.example.starter.login.LoginActivity
 import com.google.android.gms.gcm.GoogleCloudMessaging
 import com.google.android.gms.iid.InstanceID
 
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
 
         dataBinding.btnClick.setOnClickListener {
-            Toast.makeText(this, "Koi 1", Toast.LENGTH_SHORT).show()
+            LoginActivity.start(this)
         }
 
         dataBinding.btnClick2.setOnClickListener {

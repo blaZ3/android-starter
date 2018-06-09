@@ -1,4 +1,4 @@
-package com.example.testbench
+package com.example.starter
 
 import android.content.Context
 import android.support.test.InstrumentationRegistry
@@ -22,6 +22,6 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
 
-        assertEquals("com.example.testbench", appContext.packageName)
+        assertEquals("com.example.starter", appContext.packageName)
     }
 }

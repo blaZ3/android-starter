@@ -1,4 +1,4 @@
-package com.example.testbench
+package com.example.starter
 
 import android.databinding.DataBindingUtil
 import android.os.AsyncTask
@@ -9,7 +9,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 
-import com.example.testbench.databinding.ActivityMainBinding
+import com.example.starter.databinding.ActivityMainBinding
 import com.google.android.gms.gcm.GoogleCloudMessaging
 import com.google.android.gms.iid.InstanceID
 

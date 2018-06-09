@@ -1,4 +1,4 @@
-package com.example.testbench
+package com.example.starter
 
 import org.junit.Test
 

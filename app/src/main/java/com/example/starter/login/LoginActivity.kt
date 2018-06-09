@@ -42,6 +42,7 @@ class LoginActivity : AppCompatActivity(), LoginView {
 
 
         setSupportActionBar(dataBinding.toolbarLogin)
+
         supportActionBar?.title = "Login"
     }
 
